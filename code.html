@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Aniket Satish Bhagwat | Premium Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#333535",
+                        "primary-fixed-dim": "#fabd00",
+                        "on-tertiary": "#303030",
+                        "outline": "#9c8f78",
+                        "on-error": "#690005",
+                        "inverse-surface": "#e2e2e2",
+                        "surface-container-lowest": "#0c0f0f",
+                        "primary": "#ffe4af",
+                        "secondary-container": "#474746",
+                        "primary-container": "#ffc107",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "surface": "#121414",
+                        "on-tertiary-fixed-variant": "#474746",
+                        "on-secondary": "#313030",
+                        "surface-container-low": "#1a1c1c",
+                        "on-surface": "#e2e2e2",
+                        "on-surface-variant": "#d4c5ab",
+                        "tertiary-fixed": "#e4e2e1",
+                        "on-primary-fixed": "#261a00",
+                        "on-secondary-fixed": "#1c1b1b",
+                        "outline-variant": "#4f4632",
+                        "on-secondary-container": "#b7b5b4",
+                        "on-primary": "#3f2e00",
+                        "error": "#ffb4ab",
+                        "background": "#121414",
+                        "on-secondary-fixed-variant": "#474746",
+                        "on-primary-container": "#6d5100",
+                        "tertiary-container": "#cccaca",
+                        "secondary": "#c8c6c5",
+                        "secondary-fixed-dim": "#c8c6c5",
+                        "tertiary": "#e9e6e5",
+                        "surface-tint": "#fabd00",
+                        "on-tertiary-container": "#565555",
+                        "surface-bright": "#37393a",
+                        "on-error-container": "#ffdad6",
+                        "on-background": "#e2e2e2",
+                        "inverse-primary": "#785900",
+                        "surface-container": "#1e2020",
+                        "inverse-on-surface": "#2f3131",
+                        "primary-fixed": "#ffdf9e",
+                        "surface-variant": "#333535",
+                        "surface-dim": "#121414",
+                        "surface-container-high": "#282a2b",
+                        "error-container": "#93000a",
+                        "secondary-fixed": "#e5e2e1",
+                        "on-primary-fixed-variant": "#5b4300",
+                        "tertiary-fixed-dim": "#c8c6c5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "gutter": "32px",
+                        "md": "24px",
+                        "sm": "12px",
+                        "base": "8px",
+                        "xl": "80px",
+                        "xs": "4px",
+                        "lg": "48px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "h4": ["Poppins"],
+                        "h3": ["Poppins"],
+                        "h1": ["Poppins"],
+                        "h2": ["Poppins"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.15em", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "h4": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                        "h3": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "h1": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "h2": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glow-on-hover:hover {
+            box-shadow: 0 0 30px rgba(250, 189, 0, 0.15);
+        }
+        .text-glow {
+            text-shadow: 0 0 10px rgba(250, 189, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-gutter py-md max-w-container-max mx-auto bg-transparent backdrop-blur-md">
+<div class="font-h4 text-h4 font-bold text-on-surface">ASB.</div>
+<nav class="hidden md:flex gap-lg items-center">
+<a class="font-body-md text-body-md tracking-wide text-primary-container relative after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-primary-container after:rounded-full" href="#home">Home</a>
+<a class="font-body-md text-body-md tracking-wide text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#portfolio">Portfolio</a>
+<a class="font-body-md text-body-md tracking-wide text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#blog">Blog</a>
+<a class="font-body-md text-body-md tracking-wide text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#contact">Contact</a>
+</nav>
+<div class="flex gap-md">
+<span class="material-symbols-outlined text-primary-container cursor-pointer hover:scale-105 transition-transform" data-icon="language">language</span>
+<span class="material-symbols-outlined text-primary-container cursor-pointer hover:scale-105 transition-transform" data-icon="public">public</span>
+<span class="material-symbols-outlined text-primary-container cursor-pointer hover:scale-105 transition-transform" data-icon="alternate_email">alternate_email</span>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="min-h-screen flex items-center pt-[100px] px-gutter max-w-container-max mx-auto relative overflow-hidden" id="home">
+<div class="grid grid-cols-1 md:grid-cols-12 w-full items-center gap-lg">
+<!-- Left Column -->
+<div class="md:col-span-3 space-y-lg order-2 md:order-1">
+<h1 class="font-h1 text-[56px] leading-tight font-bold text-on-surface">Aniket Satish Bhagwat<span class="text-primary-container">.</span></h1>
+<div class="flex flex-col gap-base">
+<a class="text-on-surface-variant hover:text-primary-container transition-colors font-label-caps" href="#">INSTAGRAM</a>
+<a class="text-on-surface-variant hover:text-primary-container transition-colors font-label-caps" href="#">LINKEDIN</a>
+<a class="text-on-surface-variant hover:text-primary-container transition-colors font-label-caps" href="#">BEHANCE</a>
+</div>
+<button class="px-lg py-md border border-primary-container text-primary-container hover:bg-primary-container hover:text-on-primary transition-all duration-300 font-label-caps tracking-widest uppercase glow-on-hover">
+                    Contact Me
+                </button>
+</div>
+<!-- Center Column -->
+<div class="md:col-span-6 flex justify-center relative order-1 md:order-2">
+<div class="absolute inset-0 bg-primary-container/10 blur-[100px] rounded-full"></div>
+<img alt="Aniket Satish Bhagwat" class="w-[80%] aspect-square object-cover rounded-full border-8 border-surface-container-low shadow-2xl relative z-10" data-alt="A cinematic, high-quality studio portrait of a professional male developer with a modern, clean-shaven look and glasses. He wears a premium black hoodie and is set against a deep charcoal background with a soft, warm golden rim light that highlights his silhouette. The overall aesthetic is professional, innovative, and luxurious, mirroring a high-end tech executive brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDy6UUJ16T7DjJLlkZl6S-YcsqA_jDzKKDnk424OC2unejQWxTcXqTSAcEbMgqgK1i1q751JAmGOL_GdVFPby9vZCMqwtwR47rUJQyNUL1vu4pppm5_s2rYIC1jYNsBldlfPJwmcfb4GHQl5_UQLz7BqTbKxqQ9LDqEteoL7mZ15ae-HJZLdbEt5ed1tJo229Dn5TYF4JhnsB2jICYL9YLBpBHY-MgdmZAhAk9zTNAd47hwLtOQmEbqsnfLpw0JBGw4836Q_kFSJV0"/>
+</div>
+<!-- Right Column -->
+<div class="md:col-span-3 space-y-md order-3">
+<p class="font-label-caps text-primary-container tracking-widest">INTRODUCTION</p>
+<h2 class="font-h3 text-h3 font-bold text-on-surface">UI/UX Designer, Full Stack Web Developer</h2>
+<p class="text-on-surface-variant leading-relaxed">
+                    Crafting digital experiences through precision engineering and refined visual aesthetics. I help tech executives and creators build scalable, luxury digital products.
+                </p>
+<a class="flex items-center gap-base text-primary-container font-label-caps hover:gap-md transition-all" href="#">
+                    LEARN MORE <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-xl px-gutter max-w-container-max mx-auto text-center">
+<div class="max-w-2xl mx-auto mb-lg">
+<p class="font-label-caps text-primary-container mb-base tracking-widest">SERVICES</p>
+<h2 class="font-h2 text-h2 mb-md">What I Am Great At</h2>
+<p class="text-on-surface-variant">Bringing ideas to life through a balanced combination of technical rigor and creative flair.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-md">
+<!-- Card 1 -->
+<div class="glass-card p-lg rounded-xl flex flex-col items-center gap-md glow-on-hover transition-all duration-500 group">
+<span class="material-symbols-outlined text-h3 text-primary-container" data-icon="design_services">design_services</span>
+<h4 class="font-h4 text-h4 group-hover:text-primary-container transition-colors">UI/UX Design</h4>
+<p class="text-on-surface-variant font-label-caps">129 PROJECTS</p>
+</div>
+<!-- Card 2 -->
+<div class="glass-card p-lg rounded-xl flex flex-col items-center gap-md glow-on-hover transition-all duration-500 group">
+<span class="material-symbols-outlined text-h3 text-primary-container" data-icon="code">code</span>
+<h4 class="font-h4 text-h4 group-hover:text-primary-container transition-colors">Web Dev</h4>
+<p class="text-on-surface-variant font-label-caps">221 PROJECTS</p>
+</div>
+<!-- Card 3 -->
+<div class="glass-card p-lg rounded-xl flex flex-col items-center gap-md glow-on-hover transition-all duration-500 group">
+<span class="material-symbols-outlined text-h3 text-primary-container" data-icon="search">search</span>
+<h4 class="font-h4 text-h4 group-hover:text-primary-container transition-colors">Web Research</h4>
+<p class="text-on-surface-variant font-label-caps">450 PROJECTS</p>
+</div>
+<!-- Card 4 -->
+<div class="glass-card p-lg rounded-xl flex flex-col items-center gap-md glow-on-hover transition-all duration-500 group">
+<span class="material-symbols-outlined text-h3 text-primary-container" data-icon="trending_up">trending_up</span>
+<h4 class="font-h4 text-h4 group-hover:text-primary-container transition-colors">Marketing</h4>
+<p class="text-on-surface-variant font-label-caps">331 PROJECTS</p>
+</div>
+</div>
+<!-- Stats Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-xl mt-xl border-t border-outline-variant pt-xl">
+<div class="text-center">
+<h3 class="font-h2 text-h2 text-primary-container">9 +</h3>
+<p class="text-on-surface-variant font-label-caps">Years of Experience</p>
+</div>
+<div class="text-center">
+<h3 class="font-h2 text-h2 text-primary-container">200 +</h3>
+<p class="text-on-surface-variant font-label-caps">Satisfied Customers</p>
+</div>
+<div class="text-center">
+<h3 class="font-h2 text-h2 text-primary-container">769 +</h3>
+<p class="text-on-surface-variant font-label-caps">Design Items</p>
+</div>
+<div class="text-center">
+<h3 class="font-h2 text-h2 text-primary-container">124 +</h3>
+<p class="text-on-surface-variant font-label-caps">Clients Served</p>
+</div>
+</div>
+</section>
+<!-- Portfolio Section -->
+<section class="py-xl bg-surface-container-lowest" id="portfolio">
+<div class="max-w-container-max mx-auto px-gutter text-center">
+<p class="font-label-caps text-primary-container mb-base tracking-widest">PORTFOLIO</p>
+<h2 class="font-h2 text-h2 mb-lg">My Masterpiece Collection</h2>
+<div class="flex justify-center gap-lg mb-xl overflow-x-auto whitespace-nowrap pb-base">
+<button class="text-primary-container border-b-2 border-primary-container px-base pb-base font-label-caps">ALL</button>
+<button class="text-on-surface-variant hover:text-on-surface px-base pb-base font-label-caps transition-colors">UI / UX</button>
+<button class="text-on-surface-variant hover:text-on-surface px-base pb-base font-label-caps transition-colors">WEB DEVELOPMENT</button>
+<button class="text-on-surface-variant hover:text-on-surface px-base pb-base font-label-caps transition-colors">WEB RESEARCH</button>
+<button class="text-on-surface-variant hover:text-on-surface px-base pb-base font-label-caps transition-colors">MARKETING</button>
+</div>
+<!-- Asymmetric Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-md h-[800px]">
+<div class="md:col-span-3 grid grid-rows-2 gap-md">
+<img alt="Project 1" class="w-full h-full object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer" data-alt="Close-up shot of a high-tech studio environment with glowing blue and golden ambient lights. Professional workstations with minimalist equipment are arranged neatly. The mood is creative, productive, and technologically advanced, echoing the design language of a premium UI/UX portfolio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXtyvAGmUD57bUyKuZVbxh_UHHo2dpB3RanFFli_6oqwIxyDBiL5-U4K41-_IF_vUfdLDK2viDC7uo7iZdeN8SykhAlGP9vo8h9OdB1NzEclMmWjUgGKyEnG70Ya90Lhvq_B7JpUvv9TQS-gHzYQswNa7JOD7UFZLZCPyGM8PeIZvkt8mMgNjIJ3iB2TGBRKK1YHJ2l99LGsNi7ypxp1VisX7XdpaaZiLCrHVN32AZYnfDAKALnHbVJSpM8KQ_Kda5TIRhWb-LVzs"/>
+<img alt="Project 2" class="w-full h-full object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer" data-alt="An abstract visualization of a burning spark in a dark void. Glowing orange embers rise against a deep charcoal background, creating high contrast. The image represents passion, innovation, and the spark of a new idea in a sophisticated, minimalist artistic style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBj0XKW7hFXT7mcNHc_oDb7nPDnqAehPIx6S4_9yDykOSGn4LtszdfAb58vzAxxS6__5qH2jiCcQoJR5E2DaDp9GuoHxDXS9CGdtWV0_kngQUhoM9KEUPiAvR-7ah0Mb2NZAk28jbqb1gJtyRdYA4KpuaCnzTM4sAea33hFGMsAPI42tkQBxfmEcyPIhH55qO_G590pzUgYLfpiw5YfY_kIpt2Yk_DqtlKQpuZW7KK0DbAT0_jxY9QlZXLFkiBMb6QogcAZleIeqtk"/>
+</div>
+<div class="md:col-span-6">
+<div class="relative w-full h-full group overflow-hidden rounded-xl">
+<img alt="Large Feature" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 cursor-pointer" data-alt="A wide, cinematic shot of a dark architectural space with glowing neon text reflecting off dark glass surfaces. The lighting uses warm golden tones against a cool dark gray base. The composition is dramatic and bold, symbolizing a large-scale masterpiece in a premium digital portfolio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeDcjyizlPhCChBGHKTRqfMGPMBYGRTnnq3DYTTpMLto0eThskGfb3YdTFnhFtoqdnZvaC4bPJZqu2aUDlNjBc4d-73CBUoFxm95FW0xcWwJz3ivdG6jZRo3Bqi4TSPm4OaZTQT6iJbamYp5PADoy5hBFAKOxyensC22sXsoDdOiIQQsTAy9GY8eOr_HYpJ6sO-sMHtoFkhiypGA-zQoUQCoVNRTQK5z-seifXMdVBo77m_4lku9l5hjlwTI-Ukseh4kLuv_6QmO4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-lg text-left">
+<h4 class="font-h3 text-h3 text-primary-container">Public Market Digital</h4>
+<p class="text-on-surface-variant">Branding &amp; Full Stack Development</p>
+</div>
+</div>
+</div>
+<div class="md:col-span-3">
+<img alt="Project 3" class="w-full h-full object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-500 cursor-pointer" data-alt="Modern architectural lines of a skyscraper reaching into a dark evening sky. Subtle golden light reflections are seen on the glass panels. The perspective is from the ground looking up, emphasizing growth, structure, and high-end engineering excellence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBN8kSoNaqXTtc1pJ2--WvCoyIt6-gBJwu8bvOK4W2RXyvHe0FqmTuXCe_mBx9aOJm3o10n4ES-JeDt_Wp16E5xkWkJ_1i2MGkf8rDLdrgsrUqDD4lrSH_hVrWvzBZDb0KHFezZLTUTeTAjaPSz9KeHI6_SECtTPt46vkWK5DzNn_MxbJxj9tZ7UwdqvyZsblIW-KqD-k3ztLmhBI4ADLo-GcaHRYgZhf8AoHVRxOkyinimbHYYkkUzxvylg5hyIAIHg48MYohbnqw"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Articles Section -->
+<section class="py-xl px-gutter max-w-container-max mx-auto" id="blog">
+<div class="text-center mb-xl">
+<p class="font-label-caps text-primary-container mb-base tracking-widest">LATEST NEWS</p>
+<h2 class="font-h2 text-h2 mb-md">My Latest Articles</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Insights into the future of technology, design principles, and business strategy.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-lg">
+<!-- Large Feature Blog -->
+<div class="lg:col-span-1 space-y-md group">
+<div class="relative overflow-hidden rounded-xl h-[300px]">
+<img alt="Article 1" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A brightly lit, modern office space with a minimalist desk setup. The lighting is warm and golden, contrasting against dark gray furniture. High-quality materials like wood and glass are visible, creating a luxurious and professional environment for a thought leader's blog." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2ZI_TB3mub1TqDQQYbaAvW4xy8B3k5OAxLSiQb4JQJBJvJE45gE3Opza9uttAwelARRsakzg453wfl9TbvWTsM5Khx74co64lTHg1_aiPshaLiH64Rm97joZW_QQsV3mIFfj6c_NnSMlw4m6uzlJ_ZHT7YYswYhkG-q56-NNhQdw-_FUcxg86Vqha5D0R5ZxJh5aqC-p6JTuH3slVZsN9OWJ0UDE7SmheiaDWmzjeZWdELPN5-6c0GKE5RmksnaEnWhGlLyxUeJ8"/>
+<span class="absolute top-md left-md bg-primary-container text-on-primary-container px-sm py-xs text-xs font-bold rounded">08 APR 2019</span>
+</div>
+<h4 class="font-h4 text-h4 group-hover:text-primary-container transition-colors">Welcome to Jekyll! Go ahead and edit</h4>
+<p class="text-on-surface-variant line-clamp-3">You'll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes.</p>
+<a class="inline-block text-primary-container font-label-caps border-b border-primary-container/20 pb-xs hover:border-primary-container transition-all" href="#">READ MORE &gt;</a>
+</div>
+<!-- Another Blog -->
+<div class="lg:col-span-1 space-y-md group">
+<div class="relative overflow-hidden rounded-xl h-[300px]">
+<img alt="Article 2" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A historic architectural structure captured during the golden hour. The building's intricate details are highlighted by soft, warm sunlight, creating long shadows and a rich texture. The mood is reflective, suggesting depth and experience in the field of web development and architecture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCX96aFN_nziu6mDMAJeUPn0_C4A40AcFkwNdpSHZ5Fdk3vL7YiJsGz-ZTFhSQIZPk5OWX6mobHCwLpUELJgS1QigbQXutF4u4T9D5-vaEyqo4f2iG-YdQYx_DtQRGrI55PMtGnNVVS2l9NVB98NmbNnOIOx-Ibv-vaNcaTFnMwNn3eKOfrTN12LyJsanxxy1jxqEkuxguZMNds0w8ubH45wUe6EplTdJiNefm5bT1k0RhucH7IgHYpcdaVMgrnnGVgOLWGs72MAQY"/>
+<span class="absolute top-md left-md bg-primary-container text-on-primary-container px-sm py-xs text-xs font-bold rounded">10 MAR 2019</span>
+</div>
+<h4 class="font-h4 text-h4 group-hover:text-primary-container transition-colors">WordPress hosting manage your growth</h4>
+<p class="text-on-surface-variant line-clamp-3">Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account...</p>
+<a class="inline-block text-primary-container font-label-caps border-b border-primary-container/20 pb-xs hover:border-primary-container transition-all" href="#">READ MORE &gt;</a>
+</div>
+<!-- Side Stacked Blogs -->
+<div class="lg:col-span-1 flex flex-col gap-md">
+<div class="glass-card p-md rounded-xl flex gap-md items-center group cursor-pointer hover:bg-surface-container-high transition-all">
+<img alt="Mini article" class="w-24 h-24 object-cover rounded-lg" data-alt="A close-up shot of professional workspace details. Minimalist design elements, neutral color tones, and warm lighting create a sense of order and high-end digital craftsmanship." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC01Q6Y7t08o1H4bpOwN2ONOrmxrYNNJuk-ORfQd32Z5jPYe0Q1J3gAuWx6wXMVtXUO3W4zDdS8VIQ-va7DhZEsZ5AdaUB60G87zZBVb2bts9z6ko8UxfEaEjDuDlwVpdO5vHMduWYXRTzWZT1AIM8xYWm63d5j0lPlWLKqY2LbpXzqJZGyrpHHaOGkZ2vJcMW6FvNAAmwuKPcGnyju94VfWTP7pvWGwjT2subAM29LgdAwpyRApKoBF-rxXb_DLoKLIZWsLkZqQus"/>
+<div>
+<p class="text-xs text-on-surface-variant mb-xs">09 MAR 2019</p>
+<h5 class="font-h4 text-[18px] leading-tight">html5 Static Site Generator For...</h5>
+</div>
+</div>
+<div class="glass-card p-md rounded-xl flex gap-md items-center group cursor-pointer hover:bg-surface-container-high transition-all">
+<img alt="Mini article" class="w-24 h-24 object-cover rounded-lg" data-alt="A premium residential interior featuring modern furniture and soft golden accent lighting. The scene is elegant and calm, representing a balanced and focused lifestyle for a high-end designer." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkX59H_uItAQT3TW-n_lJAy9aeUg5QXlFAcikb2COdHVN16QBN2oFjGihr7eQIFhKW5e2wxUzNufQOGGcorqJwz5GL8KSPrjvp8relgp4wN74OIcVUslgEagSlPmyLLyZ5fg9GAGNNBCygRomUC2AslL5p8NgZ-IPzTBNXVQyFTHo8lD2n-33bKdykh5qK4N5jFg8w_pslPKHZhk20gF1SpEgYd59Ua2dLVpgHTSwQK9gwh4XFNzQ320sWFFLA2DJ9JvaRsv87GXI"/>
+<div>
+<p class="text-xs text-on-surface-variant mb-xs">09 FEB 2019</p>
+<h5 class="font-h4 text-[18px] leading-tight">Just Trying And Enjoying magna...</h5>
+</div>
+</div>
+<div class="glass-card p-md rounded-xl flex gap-md items-center group cursor-pointer hover:bg-surface-container-high transition-all">
+<img alt="Mini article" class="w-24 h-24 object-cover rounded-lg" data-alt="A team of professionals collaborating in a sleek, glass-walled conference room. The atmosphere is collaborative and high-tech, with a focus on innovation and group excellence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDT4drmwiGPslDPPRXqkGQR6kzu8KzkTLFKhmqSvapadYluO5jQS7mK8lAFk2eg3_uJMbDDBDDR3SGexJoVFIB4sgIWjNhDoFX8P5Xi5WaEn0q-5YwCf2gcYafV47HMUnkGdE6iV4ToewU0Ba6wyoxF9z97vQ5nv4-BeJz_rae24agk-eneGDICQvR7Uifbsbb8avLA-vOmVIp7kYyfbOKzZ5uviRX45CSRyRITGjQxuWYScPocbJVmYTRSHCoBy3bavz5M9DDX-VE"/>
+<div>
+<p class="text-xs text-on-surface-variant mb-xs">09 FEB 2019</p>
+<h5 class="font-h4 text-[18px] leading-tight">Easily choose from thousan of...</h5>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-xl bg-surface-container-lowest" id="contact">
+<div class="max-w-container-max mx-auto px-gutter text-center">
+<p class="font-label-caps text-primary-container mb-base tracking-widest">CONTACT US</p>
+<h2 class="font-h2 text-h2 mb-lg">Ways To Contact Me</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto mb-xl">Feel free to reach out for collaborations or just a friendly hello.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-md mb-md">
+<div class="glass-card p-lg rounded-xl flex items-center gap-md hover:border-primary-container transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary-container" data-icon="mail">mail</span>
+<span class="text-on-surface-variant">admin@jkh.com</span>
+</div>
+<div class="glass-card p-lg rounded-xl flex items-center gap-md hover:border-primary-container transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary-container" data-icon="call">call</span>
+<span class="text-on-surface-variant">+1 (818) 2489 XX</span>
+</div>
+<div class="glass-card p-lg rounded-xl flex items-center gap-md hover:border-primary-container transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary-container" data-icon="chat">chat</span>
+<span class="text-on-surface-variant">live:shail_</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-md">
+<div class="glass-card p-lg rounded-xl flex items-center justify-center gap-md hover:border-primary-container transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary-container" data-icon="alternate_email">alternate_email</span>
+<span class="text-on-surface-variant">@tortoiz</span>
+</div>
+<div class="glass-card p-lg rounded-xl flex items-center justify-center gap-md hover:border-primary-container transition-all cursor-pointer">
+<span class="material-symbols-outlined text-primary-container" data-icon="public">public</span>
+<span class="text-on-surface-variant">Tortoiz</span>
+</div>
+</div>
+<div class="mt-xl text-primary-container font-h4 text-[20px] tracking-widest border-t border-outline-variant pt-lg">
+                www.DownloadNewThemes.com
+            </div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full flex flex-col items-center py-lg px-gutter gap-base bg-surface-container-lowest border-t border-outline-variant">
+<div class="font-h4 text-h4 font-bold text-on-surface">ASB.</div>
+<div class="flex gap-lg">
+<a class="text-on-surface-variant hover:text-primary-fixed-dim transition-colors font-label-caps" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-primary-fixed-dim transition-colors font-label-caps" href="#">Terms of Service</a>
+</div>
+<p class="font-label-caps text-label-caps uppercase text-on-surface-variant opacity-80 mt-md">© Copyright - Tortoiz | All Rights Reserved</p>
+</footer>
+<!-- Scroll to top button -->
+<button class="fixed bottom-lg right-gutter w-12 h-12 bg-primary-container text-on-primary-container flex items-center justify-center rounded-lg shadow-lg hover:bg-primary transition-all z-50" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+<span class="material-symbols-outlined" data-icon="keyboard_arrow_up">keyboard_arrow_up</span>
+</button>
+</body></html>

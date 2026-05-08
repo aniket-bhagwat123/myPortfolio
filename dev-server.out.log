@@ -1,0 +1,71 @@
+
+> portfolio-nextjs@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.3.2
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.2:3000
+
+ ✓ Starting...
+ ✓ Ready in 1915ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.3s (750 modules)
+ GET / 200 in 4729ms
+ GET /_next/static/webpack/2436b278c77d9184.webpack.hot-update.json 404 in 4774ms
+ GET / 200 in 108ms
+ GET / 200 in 171ms
+ GET / 200 in 211ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 57ms
+ GET / 200 in 202ms
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 75ms
+ ✓ Compiled in 254ms (325 modules)
+ ✓ Compiled in 436ms (325 modules)
+ ✓ Compiled in 786ms (732 modules)
+ GET / 200 in 308ms
+ ✓ Compiled in 394ms (746 modules)
+ GET / 200 in 226ms
+ ○ Compiling /api/contact ...
+ ✓ Compiled /api/contact in 1286ms (801 modules)
+ POST /api/contact 500 in 1547ms
+   Reload env: .env
+ ✓ Compiled in 450ms (733 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.5s (1067 modules)
+ GET / 500 in 3290ms
+ GET / 200 in 432ms
+ GET / 200 in 95ms
+ ✓ Compiled /api/contact in 202ms (562 modules)
+ POST /api/contact 500 in 416ms
+   Reload env: .env
+ ✓ Compiled in 476ms (1024 modules)
+ GET / 200 in 198ms
+   Reload env: .env
+ ✓ Compiled in 308ms (1024 modules)
+ GET / 200 in 128ms
+ ✓ Compiled in 244ms (1024 modules)
+ GET / 200 in 82ms
+ ✓ Compiled /api/contact in 125ms (520 modules)
+ POST /api/contact 500 in 1261ms
+   Reload env: .env
+ ✓ Compiled in 392ms (1092 modules)
+ GET / 200 in 205ms
+ POST /api/contact 500 in 900ms
+   Reload env: .env
+ ✓ Compiled in 570ms (1024 modules)
+ GET / 200 in 277ms
+ ✓ Compiled /api/contact in 167ms (520 modules)
+ POST /api/contact 500 in 1487ms
+   Reload env: .env
+ ✓ Compiled in 385ms (1092 modules)
+ GET / 200 in 219ms
+ ✓ Compiled in 251ms (1092 modules)
+ GET / 200 in 189ms
+ POST /api/contact 500 in 1181ms
+ GET / 200 in 221ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 700ms (1028 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1001ms
+ GET /_next/static/css/app/layout.css?v=1778268080757 404 in 1001ms
+ GET /_next/static/chunks/main-app.js?v=1778268080757 404 in 960ms
+ GET /_next/static/chunks/app/page.js 404 in 83ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 94ms

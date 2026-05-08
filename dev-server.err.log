@@ -1,0 +1,59 @@
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './447.js'
+Require stack:
+- D:\Reactjs\portfolio\.next\server\webpack-runtime.js
+- D:\Reactjs\portfolio\.next\server\app\page.js
+- D:\Reactjs\portfolio\node_modules\next\dist\server\require.js
+- D:\Reactjs\portfolio\node_modules\next\dist\server\load-components.js
+- D:\Reactjs\portfolio\node_modules\next\dist\build\utils.js
+- D:\Reactjs\portfolio\node_modules\next\dist\build\swc\options.js
+- D:\Reactjs\portfolio\node_modules\next\dist\build\swc\index.js
+- D:\Reactjs\portfolio\node_modules\next\dist\build\analysis\parse-module.js
+- D:\Reactjs\portfolio\node_modules\next\dist\build\analysis\get-page-static-info.js
+- D:\Reactjs\portfolio\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Reactjs\portfolio\node_modules\next\dist\server\lib\router-server.js
+- D:\Reactjs\portfolio\node_modules\next\dist\server\lib\start-server.js
+    at __webpack_require__.f.require (D:\Reactjs\portfolio\.next\server\webpack-runtime.js:198:28)
+    at <unknown> (D:\Reactjs\portfolio\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Reactjs\portfolio\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Reactjs\portfolio\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (D:\Reactjs\portfolio\.next\server\app\page.js:1:59864)
+    at Object.<anonymous> (D:\Reactjs\portfolio\.next\server\app\page.js:1:59909) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+Contact form email error: [Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e99be6sm27691965ad.68 - gsmtp] {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e99be6sm27691965ad.68 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+Contact form email error: [Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1d271b7sm29897315ad.14 - gsmtp] {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1d271b7sm29897315ad.14 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+Contact form email error: [Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e90854sm30250015ad.66 - gsmtp] {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1e90854sm30250015ad.66 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+Contact form email error: [Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1d52f1bsm30482365ad.37 - gsmtp] {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. For more information, go to\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2baf1d52f1bsm30482365ad.37 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
